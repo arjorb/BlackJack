@@ -17,12 +17,13 @@ main {
 }
 .container {
   background-image: url('./images/table.png');
-  width: 500px;
-  height: 500px;
+  width: 550px;
+  height: 550px;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 h1 {
@@ -37,6 +38,7 @@ p {
 }
 button {
   padding: 1rem 3rem;
+  margin: 1rem 0rem;
   border: none;
   border-radius: 0.3rem;
   background: goldenrod;

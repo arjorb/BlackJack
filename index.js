@@ -27,3 +27,7 @@ const startGame = () =>{
    messageEl.textContent = message;
 }
 
+
+const newCard = () =>{
+console.log("Drawing the new card from the Dek")
+}
