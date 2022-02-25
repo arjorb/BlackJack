@@ -7,8 +7,10 @@ let message = '';
 
 let messageEl = document.getElementById('message-el');
 let sumEl = document.getElementById('sum-el');
+let cardEl  =document.getElementById('card-el');
 
 const startGame = () =>{
+    cardEl.textContent = `Cards: ${firstCard}  ${secondCard}`
     sumEl.textContent = "Sum: " + sum;
     if(sum <= 20){
         message = "Do you want to draw a new card? 😊";
