@@ -18,7 +18,7 @@ main {
 .container {
   background-image: url('./images/table.png');
   width: 550px;
-  height: 550px;
+  height: auto;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;

@@ -9,6 +9,14 @@ let messageEl = document.getElementById('message-el');
 let sumEl = document.getElementById('sum-el');
 let cardEl  =document.getElementById('card-el');
 
+let player = {
+    name :"John",
+    chips : 150
+}
+
+let playerEl = document.getElementById('player-el');
+playerEl.textContent = `${player.name}: $${player.chips}`;
+
 function getRandomCard(){
     let randomNumber = Math.floor(Math.random() * 13)+1;
     if(randomNumber === 1){
